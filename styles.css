@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#about {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#cards {
+    margin: 50px 0 50px 0;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.navbar {
+    background-color: #082032 !important;
+}
+
+button {
+    background-color: #082032 !important;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #082032;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 0 15%;
+}
+
+.scrollToTopBtn {
+    background-color: none;
+    border: none;
+    border-radius: 50%;
+    color: #FF4C29;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 48px;
+    width: 48px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all .5s ease
+}
+
+.showBtn {
+    opacity: 1;
+    transform: translateY(0)
+}
+
+@media screen and (min-width: 360px) {
+    #about {
+        margin-top: 50px;
+        font-size: 15px;
+        text-align: left;
+    }
+    #about p,
+    p,
+    .card-title,
+    .card-text,
+    .header,
+    .nav-item a,
+    h3 {
+        font-size: 12px;
+    }
+    #cards {
+        margin: 50px 0 50px 0;
+    }
+    #cards h2,
+    .credits {
+        font-size: 10px;
+        text-align: center;
+    }
+    h2,
+    .logo {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    a :hover {
+        text-decoration: none;
+        color: rgb(219, 219, 219) !important;
+    }
+    h1 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .header {
+        padding: 50px 0;
+        text-align: left;
+    }
+    .toggle-icon {
+        width: 20px;
+    }
+    .logo {
+        font-weight: bolder;
+    }
+    .header {
+        margin: 5px;
+    }
+    .card-title {
+        font-weight: 800;
+    }
+    .contact-me {
+        margin: 50px 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #about {
+        margin: 100px 0;
+        font-size: 30px;
+        text-align: left;
+    }
+    #about p,
+    .card-title,
+    .card-text,
+    .header,
+    .nav-item a,
+    h3 {
+        font-size: 13px;
+    }
+    .container-fluid {
+        padding: 0 15%;
+    }
+    #cards {
+        margin: 50px 0 50px 0;
+    }
+    .header {
+        padding: 80px 300px 80px 0;
+    }
+    #cards h2,
+    .credits {
+        text-align: center;
+    }
+    h2,
+    .logo {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .toggle-icon {
+        width: 20px;
+    }
+    .logo {
+        font-weight: bolder;
+    }
+    .header {
+        margin: 5px;
+    }
+    .card-title {
+        font-weight: 800;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #about {
+        margin-top: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+    #about p,
+    .logo,
+    .card-title,
+    .card-text,
+    .header,
+    .nav-item a,
+    h3 {
+        font-size: 13px;
+    }
+    .container-fluid {
+        padding: 0 15%;
+    }
+    #cards {
+        padding: 0px;
+    }
+    .header {
+        padding: 80px 300px 80px 0;
+    }
+    #cards h2,
+    .credits {
+        text-align: center;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .toggle-icon {
+        width: 20px;
+    }
+    .logo {
+        font-weight: bolder;
+    }
+    .header {
+        margin: 5px;
+    }
+    .card-title {
+        font-weight: bold;
+    }
+}
